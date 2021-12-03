@@ -10,9 +10,16 @@
   box-sizing: border-box;
 }
 
+.heading {
+  text-align: center;
+  padding-top: 4rem;
+  color: #eeeeee;
+  text-shadow: 0 0 0.5rem var(--primary-color);
+}
+
 .keys {
   display: flex;
-  min-height: 100vh;
+  min-height: 80vh;
   align-items: center;
   justify-content: center;
 }
